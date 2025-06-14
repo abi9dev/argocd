@@ -4,6 +4,8 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
+
+  namespace: default
 spec:
   replicas: 3 # You can change the number of desired replicas
   selector:
